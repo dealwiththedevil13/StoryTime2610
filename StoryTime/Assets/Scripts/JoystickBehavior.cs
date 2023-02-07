@@ -13,6 +13,7 @@ public class JoystickBehavior : MonoBehaviour
     void Start()
     {
         playerRB = GetComponent<Rigidbody>();
+        stick = GameObject.
         
     }
 
@@ -24,8 +25,12 @@ public class JoystickBehavior : MonoBehaviour
 
     public void Move()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-        playerRB.AddForce(Vector3.right * speed * horizontalInput);
+        float joyhorizontalMove = stick.Horizontal * speed;
+        float joyverticalMove = stick.Vertical * speed;
+
+        Vector3 moveDirection = new Vector3();
+        //float horizontalInput = Input.GetAxis("Horizontal");
+        // float verticalInput = Input.GetAxis("Vertical");
+        // playerRB.AddForce(Vector3.right * speed * horizontalInput);
     }
 }
