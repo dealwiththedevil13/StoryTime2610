@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-
+[RequireComponent(typeof(Rigidbody))]
 public class JoystickBehavior : MonoBehaviour
 {
     public Joystick stick;
@@ -13,8 +11,8 @@ public class JoystickBehavior : MonoBehaviour
     void Start()
     {
         playerRB = GetComponent<Rigidbody>();
-        stick = GameObject.
-        
+        stick = GameObject.;
+
     }
 
     
