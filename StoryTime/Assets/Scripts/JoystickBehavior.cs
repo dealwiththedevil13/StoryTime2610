@@ -11,7 +11,7 @@ public class JoystickBehavior : MonoBehaviour
     void Start()
     {
         playerRB = GetComponent<Rigidbody>();
-        stick = GameObject.;
+        //stick = GameObject.;
 
     }
 
