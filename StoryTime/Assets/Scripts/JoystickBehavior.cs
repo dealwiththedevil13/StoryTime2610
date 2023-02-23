@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class JoystickBehavior : MonoBehaviour
 {
-    public Joystick stick;
+    public FixedJoystick stick;
     public Rigidbody playerRB;
     public float speed = 5f;
     public float turnSpeed = 4f;
@@ -15,20 +15,27 @@ public class JoystickBehavior : MonoBehaviour
 
     }
 
-    
-    void Update()
+    public void Update()
     {
-        
+        Move();
     }
+    //private Vector3 move = ; 
+    
 
     public void Move()
     {
-        float joyhorizontalMove = stick.Horizontal * speed;
-        float joyverticalMove = stick.Vertical * speed;
+        float hor = stick.Horizontal;
+        float ver = stick.Vertical;
 
-        Vector3 moveDirection = new Vector3();
+        playerRB.velocity = new Vector3(hor * speed, playerRB.velocity.y, ver * speed);
+
+
+        //transform.Translate(direction * speed, Space.World);
         //float horizontalInput = Input.GetAxis("Horizontal");
         // float verticalInput = Input.GetAxis("Vertical");
-        // playerRB.AddForce(Vector3.right * speed * horizontalInput);
+        //playerRB.AddForce(Vector3.right * (speed * turnSpeed * horizontalInput));
+        // playerRB.AddForce(Vector3.forward * (speed * verticalInput));
     }
+
+    
 }
