@@ -889,8 +889,6 @@ MonoBehaviour:
   playerRB: {fileID: 1690593947}
   speed: 5
   turnSpeed: 4
-<<<<<<< HEAD
-=======
 --- !u!1 &1767329147
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,7 +1019,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> main
 --- !u!1 &1982083355
 GameObject:
   m_ObjectHideFlags: 0
