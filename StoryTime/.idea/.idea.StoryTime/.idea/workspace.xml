@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextLabelBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer script.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -74,7 +75,7 @@
       <workItem from="1676960316783" duration="7922000" />
       <workItem from="1683178261364" duration="771000" />
       <workItem from="1688081803542" duration="621000" />
-      <workItem from="1698225100089" duration="1662000" />
+      <workItem from="1698225100089" duration="2257000" />
     </task>
     <servers />
   </component>
