@@ -26,10 +26,15 @@ public class JoystickBehavior : MonoBehaviour
     {
         float hor = stick.Horizontal;
         float ver = stick.Vertical;
-
-        playerRB.velocity = new Vector3(hor * speed, playerRB.velocity.y, ver * speed);
-
-
+        
+        //playerRB.velocity = new Vector3(hor * speed, playerRB.velocity.y, ver * speed);
+        playerRB.velocity = new Vector3(hor * speed * Time.deltaTime, playerRB.velocity.y, ver * speed * Time.deltaTime);
+        Vector3 direction = new Vector3(hor, 0, ver).normalized;
+        playerRB.AddForce(direction * (speed * Time.deltaTime));
+        transform.rotation = Quaternion.LookRotation(direction);
+        
+        
+        
         //transform.Translate(direction * speed, Space.World);
         //float horizontalInput = Input.GetAxis("Horizontal");
         // float verticalInput = Input.GetAxis("Vertical");
