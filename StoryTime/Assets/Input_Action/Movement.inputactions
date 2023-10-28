@@ -1,0 +1,33 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "b448fbdd-9a8a-4f4c-adaa-97d4e79b69b1",
+            "actions": [
+                {
+                    "name": "Walk",
+                    "type": "Value",
+                    "id": "8d9fdf4b-6dc2-4f89-b1b8-b364ece12efb",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "93f4c43f-a629-41b4-9f22-2628690a2028",
+                    "path": "<AndroidJoystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Walk",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
