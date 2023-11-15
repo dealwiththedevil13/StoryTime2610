@@ -5,6 +5,7 @@ using UnityEngine;
 public class FloatData : ScriptableObject
 {
     public float value;
+    public float data;
 
     public void SetValue(float num)
     {
