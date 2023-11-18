@@ -8,7 +8,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarryBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickupBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextLabelBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -79,7 +78,7 @@
       <workItem from="1688081803542" duration="621000" />
       <workItem from="1698225100089" duration="2878000" />
       <workItem from="1698486581880" duration="989000" />
-      <workItem from="1700037147158" duration="3397000" />
+      <workItem from="1700037147158" duration="3777000" />
     </task>
     <servers />
   </component>
